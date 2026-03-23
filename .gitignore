@@ -1,0 +1,34 @@
+# Local secrets and credentials (never commit)
+.env
+.env.*
+!.env.example
+.synthesis-credentials
+.synthesis-registration-pending.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Runtime / logs
+*.log
+jarvis.pid
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
