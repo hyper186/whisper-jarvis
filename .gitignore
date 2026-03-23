@@ -21,8 +21,9 @@ venv/
 .venv/
 env/
 
-# Runtime / logs
+# Runtime / logs (jarvis.log is the assistant log — never commit)
 *.log
+jarvis.log
 jarvis.pid
 
 # OS / editor
